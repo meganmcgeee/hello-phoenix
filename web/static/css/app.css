@@ -1,1 +1,7 @@
 /* This file is for your main application css. */
+h1{
+  font-family: serif;
+}
+body{
+  font-family: 'Courier';
+}

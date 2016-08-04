@@ -18,6 +18,7 @@ defmodule HelloPhoenix.Router do
 
     get "/", PageController, :index
     get "/hello", HelloController, :index
+    get "/goodbye", GoodbyeController, :index
     get "/hello/:messenger", HelloController, :show
   end
 

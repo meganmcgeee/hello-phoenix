@@ -10,7 +10,6 @@
 
 /* Space out content a bit */
 body, form, ul, table {
-  margin-top: 20px;
   margin-bottom: 20px;
 }
 
@@ -45,7 +44,7 @@ form.link, form.button {
 /* Customize container */
 @media (min-width: 768px) {
   .container {
-    max-width: 730px;
+    max-width: 2000px;
   }
 }
 .container-narrow > hr {
@@ -54,13 +53,8 @@ form.link, form.button {
 
 /* Main marketing message */
 .jumbotron {
-  text-align: center;
+  padding-left: 5%;
   border-bottom: 1px solid #e5e5e5;
-}
-
-/* Supporting marketing content */
-.marketing {
-  margin: 35px 0;
 }
 
 /* Responsive: Portrait tablets and up */

@@ -1,0 +1,3 @@
+<div>
+  <p><%= @messenger %> page</p>
+</div>
